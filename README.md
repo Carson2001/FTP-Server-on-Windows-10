@@ -12,6 +12,7 @@ Disabling the Windows firewall is often not necessary to use FTP services, but i
 https://github.com/Carson2001/Windows-10-FTP-Server/assets/154708874/6c5840eb-ae27-434b-a77f-7601f1f063e7
 
 ### Step 2) Enable Applicable Features & Services On The Server VM:
+Launch the "Turn Windows Features on or off" utility. You can access it by searching in the Start menu or by pressing the Windows key, typing "Turn Windows Features on or off," and hitting Enter. Upon opening the utility, a list of Windows features available for activation or deactivation will be displayed. Navigate through the list until you locate "Internet Information Services." Tick the box adjacent to it to enable IIS. To activate FTP services, mark the checkbox next to "FTP Server." Optionally, you can expand the "FTP Server" category to activate additional FTP features like FTP Extensibility and FTP Service. After selecting the desired features, click "OK" to implement the changes. Windows will initiate the installation of the chosen features, which might take a few moments. Upon completion of the installation process, you can close the "Turn Windows Features on or off" utility.
 
 https://github.com/Carson2001/Windows-10-FTP-Server/assets/154708874/10dd0642-1246-463b-85c5-d8b1e8cb2b63
 
