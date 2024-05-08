@@ -1,5 +1,5 @@
 # How to create an FTP server on Windows 10 using Virtual Box:
-Welcome! This project is designed for educational purposes, aimed at guiding users through the setup of communication between two virtual machines via FTP services. Using Command Prompt, FTP, HTTP, and network configuration, I'll demonstrate how to establish communication within a virtualized environment. By following the step-by-step instructions provided here, users will gain hands-on experience in configuring network settings and deploying services.
+Welcome! This project is designed for educational purposes, aimed at guiding users through the process of establishing communication between two virtual machines via FTP services. Using Command Prompt, FTP, HTTP, and network configuration, I'll demonstrate how to establish communication within a virtualized environment. By following the step-by-step instructions provided below, users will gain hands-on experience in configuring network settings and deploying services.
 
 ### Needed Materials:
 * Oracle Virtual Box
