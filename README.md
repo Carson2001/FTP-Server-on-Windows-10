@@ -32,7 +32,7 @@ https://github.com/Carson2001/Windows-10-FTP-Server/assets/154708874/e3bac2bd-a1
 
 https://github.com/Carson2001/Windows-10-FTP-Server/assets/154708874/ac9cc175-0cd1-44a0-b20e-ec5a830d6b5e
 
-### Step 8) Access Shared Files From The CLient VM:
+### Step 8) Access Shared Files From The Client VM:
 
 https://github.com/Carson2001/Windows-10-FTP-Server/assets/154708874/f7843882-3be1-4d97-beff-931938c0b578
 
