@@ -6,7 +6,7 @@ Welcome! This project is designed for educational purposes, aimed at guiding use
 * Windows 10 ISO Image File
 * 2 Running Virtual Machines
 
-### Step 1) Diable Windows Firewall On Both VMs:
+### Step 1) Disable Windows Firewall On Both VMs:
 Disabling the Windows firewall is often not necessary to use FTP services, but it can sometimes appear that way if the firewall is blocking the necessary ports for FTP communication. FTP (File Transfer Protocol) typically uses two ports: 21 for control (FTP commands) and 20 for data transfer. If the Windows firewall is enabled and not properly configured to allow FTP traffic through these ports, it can block the FTP connection. In such cases, users might resort to disabling the firewall as a quick solution.
 
 https://github.com/Carson2001/Windows-10-FTP-Server/assets/154708874/6c5840eb-ae27-434b-a77f-7601f1f063e7
@@ -21,6 +21,7 @@ https://github.com/Carson2001/Windows-10-FTP-Server/assets/154708874/10dd0642-12
 https://github.com/Carson2001/Windows-10-FTP-Server/assets/154708874/0525a75d-7163-4fb7-9d6e-9fb09356c817
 
 ### Step 4) Statically Configure IPv4 Settings On Both VMs:
+When I first set up my VMs, I set them to connect using the same network adapter and to receive IP addresses automatically via DHCP. However, you can manually set your IP addressing following the instructions in the video below. Just ensure that the VMs are configured with matching network addresses and subnet masks.
 
 https://github.com/Carson2001/Windows-10-FTP-Server/assets/154708874/e89c0bc7-b536-4996-8cf7-12f3aea1aebb
 
