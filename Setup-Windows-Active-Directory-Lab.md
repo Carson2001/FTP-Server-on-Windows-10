@@ -87,11 +87,18 @@ https://github.com/user-attachments/assets/9104a82e-2243-4fea-ac15-007c48168a2a
 
 ## Step 17. **Add Domain Users to Remote Desktop Users due to a security feature in Windows 10 OS.**
 
+https://github.com/user-attachments/assets/091abf13-265d-4a65-9787-8c1eddffac26
+
 ## Step 18. **Add both remote machines to adlab.com domain. Ensure that your remote machine has obtained an IPv4 address within range of the DNS servicer scope. Use the login credentials that were created under domain users to login to the newly added machines.**
 
+https://github.com/user-attachments/assets/23615861-40f3-45d0-bfbc-6be961eff426
+
 ## Step 19. **Because file_svr is an export of the svr_DC virtual machine, use a tool called “sysprep” to create a unique SID.**
+https://github.com/user-attachments/assets/6cc9d514-79ec-46f7-8036-165fc9b6dea0
 
 ## Step 20. **Add file_svr to the adlab.com domain.**
+
+https://github.com/user-attachments/assets/c00b7997-7609-40ab-894c-b545b41fcbc2
 
 ## Completion:
 
