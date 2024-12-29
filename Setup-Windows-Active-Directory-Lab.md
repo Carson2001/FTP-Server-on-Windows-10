@@ -33,7 +33,11 @@ https://github.com/user-attachments/assets/0259a023-eb0a-4ad3-ad6f-b8a275663bea
 
 ## Step 4. **Create c1win10.**
 
+https://github.com/user-attachments/assets/e85e33e5-e996-4b71-88ca-3f9d1e0b5c97
+
 ## Step 5. **Install Windows 10.**
+
+https://github.com/user-attachments/assets/4fa29539-0a4e-40d9-93ae-4166626a27e2
 
 ## Step 6. **Repeat for c2win10.**
 
