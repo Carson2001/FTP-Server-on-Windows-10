@@ -59,7 +59,11 @@ https://github.com/user-attachments/assets/73c9be0b-2be9-4555-8493-44532728be09
 
 ## Step 10. **Configure network settings on pfsense web GUI.**
 
+https://github.com/user-attachments/assets/6e9aae10-5c6d-40d4-931c-5e44eb950e20
+
 ## Step 11. **Install AD DS and promote svr_DC to a Domain Controller (adlab.com).**
+
+https://github.com/user-attachments/assets/f64eb0fd-df59-4957-883c-32d4fa066e6a
 
 ## Step 12. **Create domain users and host machines for your AD.**
 
