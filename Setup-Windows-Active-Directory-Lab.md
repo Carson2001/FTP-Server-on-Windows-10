@@ -16,25 +16,30 @@ In this lab, you will:
 ## Steps
 
 1. **Create a private and external adapter in your Windows Hyper-V environment.**
-2. **Create Svr-DC VM.**
-3. **Install Windows Server 201 and create credentials.**
-4. **Create c1win10.**
-5. **Install Windows 10.**
-6. **Repeat for c2win10.**
-7. **Export svr-DC to create file-svr.**
-8. **Create pfsense VM and initialize.**
-9. **Change the hostname for all VMs.**
-10. **Configure network settings on pfsense web GUI.**
-11. **Install AD DS on the svr_DC.**
-12. **Promote svr_DC to a Domain Controller (adlab.com).**
-13. **Create domain users and host machines for your AD.**
-14. **Ensure that you have accurately configured a static IPv4 Address for your Domain Controller within the same subnet as the LAN interface for the pfsense router. The DNS server should be the default gateway address of your host machine.**
-15. **Install DHCP services on your Domain Controller.**
-16. **Configure a range of usable IPv4 addresses for your domain. Ensure that you have configured your DNS Server as the IPv4 Address of your Domain Controller. In my case, it is 192.168.0.2/24.**
-17. **Add Domain Users to Remote Desktop Users due to a security feature in Windows 10 OS.**
-18. **Add both remote machines to adlab.com domain. Ensure that your remote machine has obtained an IPv4 address within range of the DNS servicer scope. Use the login credentials that were created under domain users to login to the newly added machines.**
-19. **Because file_svr is an export of the svr_DC virtual machine, use a tool called “sysprep” to create a unique SID.**
-20. **Add file_svr to the adlab.com domain.**
+   
+https://github.com/user-attachments/assets/bc0f58e3-cdf9-4b11-baf0-9d1bc9b34d9f
+
+https://github.com/user-attachments/assets/825d61a4-e112-438e-8d02-1da7119c25ba
+
+3. **Create Svr-DC VM.**
+4. **Install Windows Server 201 and create credentials.**
+5. **Create c1win10.**
+6. **Install Windows 10.**
+7. **Repeat for c2win10.**
+8. **Export svr-DC to create file-svr.**
+9. **Create pfsense VM and initialize.**
+10. **Change the hostname for all VMs.**
+11. **Configure network settings on pfsense web GUI.**
+12. **Install AD DS on the svr_DC.**
+13. **Promote svr_DC to a Domain Controller (adlab.com).**
+14. **Create domain users and host machines for your AD.**
+15. **Ensure that you have accurately configured a static IPv4 Address for your Domain Controller within the same subnet as the LAN interface for the pfsense router. The DNS server should be the default gateway address of your host machine.**
+16. **Install DHCP services on your Domain Controller.**
+17. **Configure a range of usable IPv4 addresses for your domain. Ensure that you have configured your DNS Server as the IPv4 Address of your Domain Controller. In my case, it is 192.168.0.2/24.**
+18. **Add Domain Users to Remote Desktop Users due to a security feature in Windows 10 OS.**
+19. **Add both remote machines to adlab.com domain. Ensure that your remote machine has obtained an IPv4 address within range of the DNS servicer scope. Use the login credentials that were created under domain users to login to the newly added machines.**
+20. **Because file_svr is an export of the svr_DC virtual machine, use a tool called “sysprep” to create a unique SID.**
+21. **Add file_svr to the adlab.com domain.**
 
 ## Completion
 
