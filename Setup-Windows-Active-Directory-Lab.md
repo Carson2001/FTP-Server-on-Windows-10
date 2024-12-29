@@ -41,6 +41,8 @@ https://github.com/user-attachments/assets/4fa29539-0a4e-40d9-93ae-4166626a27e2
 
 ## Step 6. **Repeat for c2win10.**
 
+![repeat_c2win10](https://github.com/user-attachments/assets/1eb84f2a-a47e-4b7a-984d-cac0a7d664cf)
+
 ## Step 7. **Export svr-DC to create file-svr.**
 
 ## Step 8. **Create pfsense VM and initialize.**
