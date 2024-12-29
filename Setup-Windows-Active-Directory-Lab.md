@@ -75,9 +75,15 @@ https://github.com/user-attachments/assets/ad363784-3acd-4657-ada5-5878872878b2
 
 ## Step 14. **Ensure that you have accurately configured a static IPv4 Address for your Domain Controller within the same subnet as the LAN interface for the pfsense router. The DNS server should be the default gateway address of your host machine.**
 
+https://github.com/user-attachments/assets/35f03d96-4b31-450b-9fbf-aa5f7aa444b9
+
 ## Step 15. **Install DHCP services on your Domain Controller.**
 
+https://github.com/user-attachments/assets/cac0acc1-de59-4d4a-9290-ef47dc33bba2
+
 ## Step 16. **Configure a range of usable IPv4 addresses for your domain. Ensure that you have configured your DNS Server as the IPv4 Address of your Domain Controller. In my case, it is 192.168.0.2/24.**
+
+https://github.com/user-attachments/assets/9104a82e-2243-4fea-ac15-007c48168a2a
 
 ## Step 17. **Add Domain Users to Remote Desktop Users due to a security feature in Windows 10 OS.**
 
