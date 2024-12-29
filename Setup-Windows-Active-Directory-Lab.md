@@ -45,6 +45,8 @@ https://github.com/user-attachments/assets/4fa29539-0a4e-40d9-93ae-4166626a27e2
 
 ## Step 7. **Export svr-DC to create file-svr.**
 
+https://github.com/user-attachments/assets/f51e9fd9-0d68-44f0-b869-eede49ba745d
+
 ## Step 8. **Create pfsense VM and initialize.**
 
 ## Step 9. **Change the hostname for all VMs.**
