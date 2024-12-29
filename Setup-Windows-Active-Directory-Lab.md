@@ -49,6 +49,10 @@ https://github.com/user-attachments/assets/f51e9fd9-0d68-44f0-b869-eede49ba745d
 
 ## Step 8. **Create pfsense VM and initialize.**
 
+https://github.com/user-attachments/assets/d3cf5c27-894f-4b3c-9b1b-59eccf99f6ff
+
+https://github.com/user-attachments/assets/2ea8e2ae-59ba-488c-aeff-74223d707e27
+
 ## Step 9. **Change the hostname for all VMs.**
 
 ## Step 10. **Configure network settings on pfsense web GUI.**
