@@ -59,25 +59,23 @@ https://github.com/user-attachments/assets/73c9be0b-2be9-4555-8493-44532728be09
 
 ## Step 10. **Configure network settings on pfsense web GUI.**
 
-## Step 11. **Install AD DS on the svr_DC.**
+## Step 11. **Install AD DS and promote svr_DC to a Domain Controller (adlab.com).**
 
-## Step 12. **Promote svr_DC to a Domain Controller (adlab.com).**
+## Step 12. **Create domain users and host machines for your AD.**
 
-## Step 13. **Create domain users and host machines for your AD.**
+## Step 13. **Ensure that you have accurately configured a static IPv4 Address for your Domain Controller within the same subnet as the LAN interface for the pfsense router. The DNS server should be the default gateway address of your host machine.**
 
-## Step 14. **Ensure that you have accurately configured a static IPv4 Address for your Domain Controller within the same subnet as the LAN interface for the pfsense router. The DNS server should be the default gateway address of your host machine.**
+## Step 14. **Install DHCP services on your Domain Controller.**
 
-## Step 15. **Install DHCP services on your Domain Controller.**
+## Step 15. **Configure a range of usable IPv4 addresses for your domain. Ensure that you have configured your DNS Server as the IPv4 Address of your Domain Controller. In my case, it is 192.168.0.2/24.**
 
-## Step 16. **Configure a range of usable IPv4 addresses for your domain. Ensure that you have configured your DNS Server as the IPv4 Address of your Domain Controller. In my case, it is 192.168.0.2/24.**
+## Step 16. **Add Domain Users to Remote Desktop Users due to a security feature in Windows 10 OS.**
 
-## Step 17. **Add Domain Users to Remote Desktop Users due to a security feature in Windows 10 OS.**
+## Step 17. **Add both remote machines to adlab.com domain. Ensure that your remote machine has obtained an IPv4 address within range of the DNS servicer scope. Use the login credentials that were created under domain users to login to the newly added machines.**
 
-## Step 18. **Add both remote machines to adlab.com domain. Ensure that your remote machine has obtained an IPv4 address within range of the DNS servicer scope. Use the login credentials that were created under domain users to login to the newly added machines.**
+## Step 18. **Because file_svr is an export of the svr_DC virtual machine, use a tool called “sysprep” to create a unique SID.**
 
-## Step 19. **Because file_svr is an export of the svr_DC virtual machine, use a tool called “sysprep” to create a unique SID.**
-
-## Step 20. **Add file_svr to the adlab.com domain.**
+## Step 19. **Add file_svr to the adlab.com domain.**
 
 ## Completion:
 
