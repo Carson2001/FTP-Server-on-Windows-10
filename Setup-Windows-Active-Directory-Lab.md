@@ -17,7 +17,7 @@ In this lab, you will:
 
 1. **Create a private and external adapter in your Windows Hyper-V environment.**
    
-https://github.com/user-attachments/assets/bc0f58e3-cdf9-4b11-baf0-9d1bc9b34d9f
+[https://github.com/user-attachments/assets/bc0f58e3-cdf9-4b11-baf0-9d1bc9b34d9f](https://github.com/user-attachments/assets/b82f3085-abc9-43a9-8fe1-24422880cf80)
 
 https://github.com/user-attachments/assets/825d61a4-e112-438e-8d02-1da7119c25ba
 
