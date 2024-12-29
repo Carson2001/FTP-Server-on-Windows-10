@@ -55,6 +55,8 @@ https://github.com/user-attachments/assets/2ea8e2ae-59ba-488c-aeff-74223d707e27
 
 ## Step 9. **Change the hostname for all VMs.**
 
+https://github.com/user-attachments/assets/73c9be0b-2be9-4555-8493-44532728be09
+
 ## Step 10. **Configure network settings on pfsense web GUI.**
 
 ## Step 11. **Install AD DS on the svr_DC.**
