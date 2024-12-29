@@ -1,6 +1,6 @@
 # Windows Active Directory Environment Lab (Hyper-V)
 
-## Summary
+## Summary:
 
 In this lab, you will:
 - Set up Windows Active Directory in a virtualized environment.
@@ -8,12 +8,12 @@ In this lab, you will:
 - Install AD DS and promote a virtual machine to domain controller.
 - Manage users and computers within the small-scale virtual domain.
 
-## Prerequisites
+## Prerequisites:
 
 - Access to a virtualization platform (Hyper-V, VMware, Virtual Box).
 - At least 8 GB of RAM for your host system.
 
-## Steps
+## Instructions:
 
 ## Step 1. **Create a private and external adapter in your Windows Hyper-V environment.**
    
@@ -61,6 +61,6 @@ https://github.com/user-attachments/assets/168ef5f2-1845-41bf-b4e5-aca311c77ced
 
 ## Step 20. **Add file_svr to the adlab.com domain.**
 
-## Completion
+## Completion:
 
 You have successfully created a virtualized Active Directory environment. Ensure that all machines are connected to the adlab.com domain, can ping each other, and you have the necessary firewall configurations made to allow communication between clients. From here, you will be able to set GPO, security rules, and other administrative tasks to your environment.
