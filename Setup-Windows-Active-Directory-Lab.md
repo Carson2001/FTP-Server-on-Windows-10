@@ -47,39 +47,43 @@ https://github.com/user-attachments/assets/4fa29539-0a4e-40d9-93ae-4166626a27e2
 
 https://github.com/user-attachments/assets/f51e9fd9-0d68-44f0-b869-eede49ba745d
 
-## Step 8. **Create pfsense VM and initialize.**
+## Step 8. **Import file_svr.**
+
+## Step 9. **Create pfsense VM and initialize.**
 
 https://github.com/user-attachments/assets/d3cf5c27-894f-4b3c-9b1b-59eccf99f6ff
 
 https://github.com/user-attachments/assets/2ea8e2ae-59ba-488c-aeff-74223d707e27
 
-## Step 9. **Change the hostname for all VMs.**
+## Step 10. **Change the hostname for all VMs.**
 
 https://github.com/user-attachments/assets/73c9be0b-2be9-4555-8493-44532728be09
 
-## Step 10. **Configure network settings on pfsense web GUI.**
+## Step 11. **Configure network settings on pfsense web GUI.**
 
 https://github.com/user-attachments/assets/6e9aae10-5c6d-40d4-931c-5e44eb950e20
 
-## Step 11. **Install AD DS and promote svr_DC to a Domain Controller (adlab.com).**
+## Step 12. **Install AD DS and promote svr_DC to a Domain Controller (adlab.com).**
 
 https://github.com/user-attachments/assets/f64eb0fd-df59-4957-883c-32d4fa066e6a
 
-## Step 12. **Create domain users and host machines for your AD.**
+## Step 13. **Create domain users and host machines for your AD.**
 
-## Step 13. **Ensure that you have accurately configured a static IPv4 Address for your Domain Controller within the same subnet as the LAN interface for the pfsense router. The DNS server should be the default gateway address of your host machine.**
+https://github.com/user-attachments/assets/ad363784-3acd-4657-ada5-5878872878b2
 
-## Step 14. **Install DHCP services on your Domain Controller.**
+## Step 14. **Ensure that you have accurately configured a static IPv4 Address for your Domain Controller within the same subnet as the LAN interface for the pfsense router. The DNS server should be the default gateway address of your host machine.**
 
-## Step 15. **Configure a range of usable IPv4 addresses for your domain. Ensure that you have configured your DNS Server as the IPv4 Address of your Domain Controller. In my case, it is 192.168.0.2/24.**
+## Step 15. **Install DHCP services on your Domain Controller.**
 
-## Step 16. **Add Domain Users to Remote Desktop Users due to a security feature in Windows 10 OS.**
+## Step 16. **Configure a range of usable IPv4 addresses for your domain. Ensure that you have configured your DNS Server as the IPv4 Address of your Domain Controller. In my case, it is 192.168.0.2/24.**
 
-## Step 17. **Add both remote machines to adlab.com domain. Ensure that your remote machine has obtained an IPv4 address within range of the DNS servicer scope. Use the login credentials that were created under domain users to login to the newly added machines.**
+## Step 17. **Add Domain Users to Remote Desktop Users due to a security feature in Windows 10 OS.**
 
-## Step 18. **Because file_svr is an export of the svr_DC virtual machine, use a tool called “sysprep” to create a unique SID.**
+## Step 18. **Add both remote machines to adlab.com domain. Ensure that your remote machine has obtained an IPv4 address within range of the DNS servicer scope. Use the login credentials that were created under domain users to login to the newly added machines.**
 
-## Step 19. **Add file_svr to the adlab.com domain.**
+## Step 19. **Because file_svr is an export of the svr_DC virtual machine, use a tool called “sysprep” to create a unique SID.**
+
+## Step 20. **Add file_svr to the adlab.com domain.**
 
 ## Completion:
 
