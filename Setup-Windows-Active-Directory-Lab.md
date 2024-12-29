@@ -27,6 +27,10 @@ https://github.com/user-attachments/assets/168ef5f2-1845-41bf-b4e5-aca311c77ced
    
 ## Step 3. **Install Windows Server 2012 and create credentials.**
 
+https://github.com/user-attachments/assets/96c1290c-36d0-4b13-92d4-b51ecff16a64
+
+https://github.com/user-attachments/assets/0259a023-eb0a-4ad3-ad6f-b8a275663bea
+
 ## Step 4. **Create c1win10.**
 
 ## Step 5. **Install Windows 10.**
