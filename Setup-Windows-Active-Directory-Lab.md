@@ -49,6 +49,8 @@ https://github.com/user-attachments/assets/f51e9fd9-0d68-44f0-b869-eede49ba745d
 
 ## Step 8. **Import file_svr.**
 
+https://github.com/user-attachments/assets/d09d0b9f-df97-4ff6-99b8-7947dae538d6
+
 ## Step 9. **Create pfsense VM and initialize.**
 
 https://github.com/user-attachments/assets/d3cf5c27-894f-4b3c-9b1b-59eccf99f6ff
