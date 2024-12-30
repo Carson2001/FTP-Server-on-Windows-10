@@ -15,7 +15,7 @@ In this lab, you will:
 
 ## Lab Topology:
 
-
+![Topolgy](https://github.com/user-attachments/assets/b1ab1e80-2099-420a-8223-81433c8bf822)
 
 ## Instructions:
 
