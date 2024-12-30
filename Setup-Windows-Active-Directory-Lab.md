@@ -51,13 +51,19 @@ https://github.com/user-attachments/assets/4fa29539-0a4e-40d9-93ae-4166626a27e2
 
 ![repeat_c2win10](https://github.com/user-attachments/assets/1eb84f2a-a47e-4b7a-984d-cac0a7d664cf)
 
+This VM will be the second of the Windows clients in our Active Directory environment. 
+
 ## Step 7. **Export svr-DC to create file-svr.**
 
 https://github.com/user-attachments/assets/f51e9fd9-0d68-44f0-b869-eede49ba745d
 
+To simplify the creation of our File Server, we can export a duplicate of our Domain Controller.
+
 ## Step 8. **Import file_svr.**
 
 https://github.com/user-attachments/assets/d09d0b9f-df97-4ff6-99b8-7947dae538d6
+
+After exporting the Domain Controller, we can import the duplicate and rename the machine. This VM will have the same ISO file and storage/memory allocation. Reinstalling Windows Server is not necessary after exporting a pre-configured machine. 
 
 ## Step 9. **Create pfsense VM and initialize.**
 
@@ -65,9 +71,13 @@ https://github.com/user-attachments/assets/d3cf5c27-894f-4b3c-9b1b-59eccf99f6ff
 
 https://github.com/user-attachments/assets/2ea8e2ae-59ba-488c-aeff-74223d707e27
 
+While connection to the internet is not necessary for Active Directory to function, installing a virtual router/firewall offers additional scalability and security for your enviornment. 
+
 ## Step 10. **Change the hostname for all VMs.**
 
 https://github.com/user-attachments/assets/73c9be0b-2be9-4555-8493-44532728be09
+
+Ensure that you have set hostnames that are easy to identify before you join your clients to the domain. 
 
 ## Step 11. **Configure network settings on pfsense web GUI.**
 
