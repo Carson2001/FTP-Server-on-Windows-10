@@ -83,41 +83,61 @@ Ensure that you have set hostnames that are easy to identify before you join you
 
 https://github.com/user-attachments/assets/6e9aae10-5c6d-40d4-931c-5e44eb950e20
 
+Login to a client system, use an internet browser and type in the IPv4 address of the pfsense LAN interface (e.g. 192.168.0.1). Since we will be installing DHCP and DNS services on our Domain Controller, I disabled them on the pfsense machine via the web GUI interface.
+
 ## Step 12. **Install AD DS and promote svr_DC to a Domain Controller (adlab.com).**
 
 https://github.com/user-attachments/assets/f64eb0fd-df59-4957-883c-32d4fa066e6a
+
+Install Active Directory Domain Services (AD DS) on the server named svr_DC and promote it to act as a Domain Controller for the domain adlab.com, establishing it as the authoritative domain server.
 
 ## Step 13. **Create domain users and host machines for your AD.**
 
 https://github.com/user-attachments/assets/ad363784-3acd-4657-ada5-5878872878b2
 
-## Step 14. **Ensure that you have accurately configured a static IPv4 Address for your Domain Controller within the same subnet as the LAN interface for the pfsense router. The DNS server should be the default gateway address of your host machine.**
+Set up user accounts and computer accounts within the Active Directory for all individuals and host machines that will be part of your network domain. 
+
+## Step 14. **Ensure that you have accurately configured a static IPv4 Address for your Domain Controller,**
 
 https://github.com/user-attachments/assets/35f03d96-4b31-450b-9fbf-aa5f7aa444b9
+
+Configure a static IPv4 address for the Domain Controller to ensure it resides on the same subnet as the LAN interface of the pfSense router. Set the Domain Controller’s DNS server address to match the default gateway of your host machine.
 
 ## Step 15. **Install DHCP services on your Domain Controller.**
 
 https://github.com/user-attachments/assets/cac0acc1-de59-4d4a-9290-ef47dc33bba2
 
-## Step 16. **Configure a range of usable IPv4 addresses for your domain. Ensure that you have configured your DNS Server as the IPv4 Address of your Domain Controller. In my case, it is 192.168.0.2/24.**
+Install and configure the DHCP server role on your Domain Controller to manage the dynamic distribution of IP addresses in your network.
+
+## Step 16. **Configure a scope of usable IPv4 addresses for your DHCP Server.**
 
 https://github.com/user-attachments/assets/9104a82e-2243-4fea-ac15-007c48168a2a
 
-## Step 17. **Add Domain Users to Remote Desktop Users due to a security feature in Windows 10 OS.**
+Define a specific range of IPv4 addresses that can be assigned to devices within your domain. Set the DNS server setting to point to your Domain Controller’s IP address, ensuring all devices use it for DNS resolution.
+
+## Step 17. **Add Domain Users to Remote Desktop Users.**
 
 https://github.com/user-attachments/assets/091abf13-265d-4a65-9787-8c1eddffac26
 
-## Step 18. **Add both remote machines to adlab.com domain. Ensure that your remote machine has obtained an IPv4 address within range of the DNS servicer scope. Use the login credentials that were created under domain users to login to the newly added machines.**
+Because of security features in Windows 10 OS, the client machines will need to be added to remote desktop users as well as domain users. 
+
+## Step 18. **Add both client machines to the adlab.com domain.**
 
 https://github.com/user-attachments/assets/6cc9d514-79ec-46f7-8036-165fc9b6dea0
+
+Ensure that your remote desktop users have obtained an IPv4 address within the range of the DHCP Server. Use the login credentials that were created under domain users to log in to the newly added machines
 
 ## Step 19. **Because file_svr is an export of the svr_DC virtual machine, use a tool called “sysprep” to create a unique SID.**
 
 https://github.com/user-attachments/assets/23615861-40f3-45d0-bfbc-6be961eff426
 
+Use the “sysprep” tool on file_svr, which is a cloned version of the svr_DC VM, to reset the system identification number (SID) to ensure it is unique within the network.
+
 ## Step 20. **Add file_svr to the adlab.com domain.**
 
 https://github.com/user-attachments/assets/c00b7997-7609-40ab-894c-b545b41fcbc2
+
+Integrate the file_svr machine into the adlab.com domain, allowing it to participate fully in domain-based network activities and security authentication processes.
 
 ## Completion:
 
