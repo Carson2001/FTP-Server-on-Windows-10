@@ -20,11 +20,13 @@ In this lab, you will:
 [https://github.com/user-attachments/assets/bc0f58e3-cdf9-4b11-baf0-9d1bc9b34d9f](https://github.com/user-attachments/assets/b82f3085-abc9-43a9-8fe1-24422880cf80)
 
 https://github.com/user-attachments/assets/825d61a4-e112-438e-8d02-1da7119c25ba
+
 Private adapters are utilized for communication within an internal LAN, whereas external adapters facilitate connections to external WANs. Both types are essential for establishing a secure environment for our virtual machines.
 
 ## Step 2. **Create Svr-DC VM.**
    
 https://github.com/user-attachments/assets/168ef5f2-1845-41bf-b4e5-aca311c77ced
+
 This server VM will be our domain controller (DC). DCs manage the domain where users and computers are interconnected and can provide additional services such as Active Directory Domain Services (AD DS), Dynamic Host Configuration Protocol (DHCP), and Domain Name System (DNS).
    
 ## Step 3. **Install Windows Server 2012 and create credentials.**
@@ -32,11 +34,13 @@ This server VM will be our domain controller (DC). DCs manage the domain where u
 https://github.com/user-attachments/assets/96c1290c-36d0-4b13-92d4-b51ecff16a64
 
 https://github.com/user-attachments/assets/0259a023-eb0a-4ad3-ad6f-b8a275663bea
+
 I am using Windows Server 2012 R2 for this project, however, newer versions of Windows server are availabe. 
 
 ## Step 4. **Create c1win10.**
 
 https://github.com/user-attachments/assets/e85e33e5-e996-4b71-88ca-3f9d1e0b5c97
+
 This VM will be one of two Windows clients in our Active Directory environment. 
 
 ## Step 5. **Install Windows 10.**
