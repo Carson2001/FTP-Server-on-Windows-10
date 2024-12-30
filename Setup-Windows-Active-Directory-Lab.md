@@ -13,6 +13,10 @@ In this lab, you will:
 - Access to a virtualization platform (Hyper-V, VMware, Virtual Box).
 - At least 8 GB of RAM for your host system.
 
+## Lab Topology:
+
+
+
 ## Instructions:
 
 ## Step 1. **Create a private and external adapter in your Windows Hyper-V environment.**
